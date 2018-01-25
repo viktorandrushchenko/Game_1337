@@ -1,0 +1,908 @@
+﻿[2018.01.22-07.31.37:194][  0]Log file open, 01/22/18 15:31:37
+[2018.01.22-07.31.37:194][  0]LogInit:Display: Running engine for game: TopDown
+[2018.01.22-07.31.37:194][  0]LogInit:Display: RandInit(1198804908) SRandInit(1198804908).
+[2018.01.22-07.31.37:194][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2018.01.22-07.31.37:194][  0]LogStats: Stats thread started at 0.069239
+[2018.01.22-07.31.37:194][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2018.01.22-07.31.37:194][  0]LogInit: API Version: 2672455
+[2018.01.22-07.31.37:194][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2018.01.22-07.31.37:194][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2018.01.22-07.31.37:194][  0]LogInit: Build Configuration: Development
+[2018.01.22-07.31.37:194][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2018.01.22-07.31.37:194][  0]LogInit: Command line:  
+[2018.01.22-07.31.37:194][  0]LogInit: Base directory: D:/UE_4.9/Engine/Binaries/Win64/
+[2018.01.22-07.31.37:194][  0]LogInit: Rocket: 1
+[2018.01.22-07.31.37:241][  0]LogInit: Using libcurl 7.41.0
+[2018.01.22-07.31.37:241][  0]LogInit:  - built for x86_64-pc-win32
+[2018.01.22-07.31.37:241][  0]LogInit:  - supports SSL with WinSSL
+[2018.01.22-07.31.37:241][  0]LogInit:  - other features:
+[2018.01.22-07.31.37:241][  0]LogInit:      CURL_VERSION_SSL
+[2018.01.22-07.31.37:241][  0]LogInit:      CURL_VERSION_IPV6
+[2018.01.22-07.31.37:241][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2018.01.22-07.31.37:241][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2018.01.22-07.31.37:241][  0]LogInit:      CURL_VERSION_IDN
+[2018.01.22-07.31.37:241][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2018.01.22-07.31.37:241][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2018.01.22-07.31.37:241][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2018.01.22-07.31.37:241][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2018.01.22-07.31.37:241][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2018.01.22-07.31.37:251][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2018.01.22-07.31.37:262][  0]LogInit: Object subsystem initialized
+[2018.01.22-07.31.37:265][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.22-07.31.37:265][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.22-07.31.37:275][  0]LogInit: Computer: 1-ПК
+[2018.01.22-07.31.37:275][  0]LogInit: User: 1
+[2018.01.22-07.31.37:275][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.01.22-07.31.37:275][  0]LogInit: High frequency timer resolution =2.338476 MHz
+[2018.01.22-07.31.37:275][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2018.01.22-07.31.37:275][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.22-07.31.37:275][  0]LogMemory: Process Physical Memory: 60.09 MB used, 60.09 MB peak
+[2018.01.22-07.31.37:275][  0]LogMemory: Process Virtual Memory: 63.72 MB used, 63.72 MB peak
+[2018.01.22-07.31.37:275][  0]LogMemory: Physical Memory: 3008.73 MB used, 4010.14 MB total
+[2018.01.22-07.31.37:275][  0]LogMemory: Virtual Memory: 350.29 MB used, 8388608.00 MB total
+[2018.01.22-07.31.37:378][  0]LogTextLocalizationManager: No translations for ('ru-RU') exist, falling back to 'en' for localization and internationalization data.
+[2018.01.22-07.31.41:564][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce 410M (Feature Level 11_0)
+[2018.01.22-07.31.41:564][  0]LogD3D11RHI: Adapter has 979MB of dedicated video memory, 0MB of dedicated system memory, and 1749MB of shared system memory, 1 output[s]
+[2018.01.22-07.31.41:874][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce 410M (Feature Level 11_0)
+[2018.01.22-07.31.41:874][  0]LogD3D11RHI: Adapter has 979MB of dedicated video memory, 0MB of dedicated system memory, and 1749MB of shared system memory, 0 output[s]
+[2018.01.22-07.31.41:874][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2018.01.22-07.31.41:889][  0]LogD3D11RHI: !Direct3DDevice
+[2018.01.22-07.31.41:889][  0]LogRHI: Texture pool is 1297 MB (70% of 1854 MB)
+[2018.01.22-07.31.41:915][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.22-07.31.41:937][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../sergey/UnrealProjects/TopDown/Intermediate/Shaders/WorkingDirectory/5264/).
+[2018.01.22-07.31.41:937][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../sergey/UnrealProjects/TopDown/Intermediate/Shaders/tmp/1D80479B4BB86D312B0696BEBD6F42C5/'.
+[2018.01.22-07.31.41:937][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.01.22-07.31.50:922][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.22-07.31.50:932][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.22-07.31.50:941][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.22-07.31.50:950][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.22-07.31.50:959][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.01.22-07.31.50:984][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.01.22-07.31.50:991][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.22-07.31.50:999][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.22-07.31.51:006][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.22-07.31.51:015][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.22-07.31.51:038][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.22-07.31.51:046][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.22-07.31.51:049][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.01.22-07.31.51:179][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.01.22-07.31.51:196][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.22-07.31.51:223][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.22-07.31.51:241][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.01.22-07.31.51:241][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.01.22-07.31.52:672][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.01.22-07.31.53:466][  0]LogDerivedDataCache: Loaded boot cache 0.77s 41MB C:/Users/1/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2018.01.22-07.31.53:466][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/1/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2018.01.22-07.31.53:467][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../sergey/UnrealProjects/TopDown/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.22-07.31.53:467][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.22-07.31.53:467][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../sergey/UnrealProjects/TopDown/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.22-07.31.53:467][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.22-07.31.53:755][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.22-07.31.53:767][  0]LogDerivedDataCache: Using Local data cache path C:/Users/1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.22-07.31.58:989][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.22-07.31.58:990][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2018.01.22-07.31.59:128][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2018.01.22-07.31.59:128][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.01.22-07.32.01:251][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.22-07.32.33:972][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.22-07.32.34:634][  0]LogAssetRegistry: FAssetRegistry took 0.0099 seconds to start up
+[2018.01.22-07.32.36:366][  0]SourceControl: Info Source control is disabled
+[2018.01.22-07.32.36:367][  0]SourceControl: Info Source control is disabled
+[2018.01.22-07.32.36:428][  0]SourceControl: Info Source control is disabled
+[2018.01.22-07.32.36:535][  0]SourceControl: Info Source control is disabled
+[2018.01.22-07.32.39:097][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.01.22-07.32.39:773][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2018.01.22-07.32.39:773][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
+[2018.01.22-07.32.40:281][  0]LogEngine: Initializing Engine...
+[2018.01.22-07.32.40:283][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2018.01.22-07.32.40:416][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2018.01.22-07.32.41:080][  0]LogAIModule: Creating AISystem for world NewWorld
+[2018.01.22-07.32.41:118][  0]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.22-07.32.41:199][  0]LogInit: FAudioDevice initialized.
+[2018.01.22-07.32.41:238][  0]LogDerivedDataCache: Saved boot cache 0.04s 41MB C:/Users/1/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2018.01.22-07.32.41:245][  0]LogInit: Texture streaming: Enabled
+[2018.01.22-07.32.41:272][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2018.01.22-07.32.41:272][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2018.01.22-07.32.41:273][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId fdb2de1848db1fa47a6f94acde81dca0|be1dc849c34248278283a980c6ca8968|82021297-a794-427f-b0e0-602fe21b1b06
+[2018.01.22-07.32.41:273][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2018.01.22-07.32.41:693][  0]LogInit: Transaction tracking system initialized
+[2018.01.22-07.32.43:317][  0]BlueprintLog: New page: Editor Load
+[2018.01.22-07.32.44:413][  0]LocalizationService: Info Localization service is disabled
+[2018.01.22-07.32.44:894][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2018.01.22-07.32.44:894][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2018.01.22-07.32.44:894][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2018.01.22-07.32.45:080][  0]LogConsoleResponse:Display: 
+[2018.01.22-07.32.48:865][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2018.01.22-07.32.49:928][  0]LogFileCache: Scanning file cache for directory 'D:/sergey/UnrealProjects/TopDown/Content/' took 0.02s
+[2018.01.22-07.32.50:106][  0]SourceControl: Info Source control is disabled
+[2018.01.22-07.32.50:106][  0]Cmd: MAP LOAD FILE="../../../../sergey/UnrealProjects/TopDown/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.22-07.32.50:107][  0]LightingResults: New page: Lighting Build
+[2018.01.22-07.32.50:110][  0]MapCheck: New page: Map Check
+[2018.01.22-07.32.50:110][  0]LightingResults: New page: Lighting Build
+[2018.01.22-07.32.50:134][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022713CE0
+[2018.01.22-07.32.50:221][  0]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/TopDown/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.01.22-07.32.50:343][  0]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/TopDown/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.01.22-07.32.50:469][  0]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/TopDown/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.01.22-07.32.50:515][  0]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/TopDown/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.01.22-07.32.50:598][  0]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/TopDown/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.01.22-07.32.50:650][  0]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/TopDown/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.01.22-07.32.50:696][  0]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/TopDown/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.01.22-07.32.50:764][  0]LogLinker:Warning: Asset '../../../../sergey/UnrealProjects/TopDown/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.01.22-07.32.53:668][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/TopDownBP/Blueprints/Inventory/Item/Items/Base_Items/Item_aid_base.Item_aid_base_C:UserConstructionScript; removing parent information, but keeping function
+[2018.01.22-07.32.53:732][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/TopDownBP/Blueprints/Inventory/Item/Items/Base_Items/Item_Statue.Item_Statue_C:UserConstructionScript; removing parent information, but keeping function
+[2018.01.22-07.32.56:058][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.01.22-07.32.56:119][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.22-07.32.56:119][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.22-07.32.56:214][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 94.312ms to complete.
+[2018.01.22-07.32.56:214][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 6.108
+[2018.01.22-07.32.56:654][  0]LogCollectionManager: Loaded 0 collections in 0.002083 seconds
+[2018.01.22-07.32.56:697][  0]LogFileCache: Scanning file cache for directory 'D:/sergey/UnrealProjects/TopDown/Saved/Collections/' took 0.01s
+[2018.01.22-07.32.56:697][  0]LogFileCache: Scanning file cache for directory 'D:/sergey/UnrealProjects/TopDown/Content/Developers/1/Collections/' took 0.01s
+[2018.01.22-07.32.56:697][  0]LogFileCache: Scanning file cache for directory 'D:/sergey/UnrealProjects/TopDown/Content/Collections/' took 0.01s
+[2018.01.22-07.32.56:697][  0]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 1868 classes and 335 folders.
+[2018.01.22-07.32.56:704][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2018.01.22-07.32.56:711][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.01.22-07.32.58:624][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.01.22-07.32.58:824][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.01.22-07.32.58:830][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.01.22-07.32.58:851][  0]LogLoad: Full Startup: 82.38 seconds (BP compile: 0.42 seconds)
+[2018.01.22-07.32.59:051][  0]LogContentStreaming: Texture pool size now 200 MB
+[2018.01.22-07.32.59:321][  0]LogRenderer: Reallocating scene render targets to support 640x352 (Frame:2).
+[2018.01.22-07.33.00:308][  8]LogAssetRegistry: Asset discovery search completed in 25.6839 seconds
+[2018.01.22-07.33.00:308][  8]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.01.22-07.33.00:308][  8]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000041 seconds (updated 0 objects)
+[2018.01.22-07.33.24:349][352]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.01.22-07.33.25:238][352]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 107 classes and 0 folders.
+[2018.01.22-07.34.00:184][381]BlueprintLog: New page: Compile TopDownCharacter
+[2018.01.22-07.34.00:497][381]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2018.01.22-07.34.00:599][381]BlueprintEditorCompileResults: Info [0144.13] Compile of TopDownCharacter successful! [in 414 ms]
+[2018.01.22-07.34.00:880][383]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/TopDownCharacter" FILE="../../../../sergey/UnrealProjects/TopDown/Content/TopDownBP/Blueprints/TopDownCharacter.uasset" SILENT=true
+[2018.01.22-07.34.01:395][383]LogSavePackage: Save=503.509979ms
+[2018.01.22-07.34.01:395][383]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TopDown/Saved/TopDownCharacter005495B6418346B5B9B11099BB7B1723.tmp' to '../../../../sergey/UnrealProjects/TopDown/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2018.01.22-07.34.01:397][383]LogSavePackage: Total save time: 515.770953ms
+[2018.01.22-07.34.01:397][383]LogSavePackage:Warning: Finished SavePackage ../../../../sergey/UnrealProjects/TopDown/Content/TopDownBP/Blueprints/TopDownCharacter.uasset
+[2018.01.22-07.34.04:447][539]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.01.22-07.34.04:447][539]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.22-07.34.04:447][539]PIE: New page: PIE session: TopDownExampleMap (Jan 22, 2018, 11:34:04 PM)
+[2018.01.22-07.34.04:448][539]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.01.22-07.34.04:490][539]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042416s)
+[2018.01.22-07.34.04:491][539]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.01.22-07.34.04:491][539]LogPlayLevel: PIE: World Init took: (0.001124s)
+[2018.01.22-07.34.04:491][539]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.043814s)
+[2018.01.22-07.34.04:491][539]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2018.01.22-07.34.04:550][539]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.22-07.34.04:600][539]LogInit: FAudioDevice initialized.
+[2018.01.22-07.34.04:653][539]LogWorld: Game class is 'TopDownGameMode_C'
+[2018.01.22-07.34.04:662][539]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2018.01.22-07.34.04:662][539]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.01.22-15.34.04
+[2018.01.22-07.34.04:662][539]LogActor:Warning: GameSession /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.01.22-07.34.04:662][539]LogActor:Warning: GameNetworkManager /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.01.22-07.34.04:663][539]LogWorld: Bringing up level for play took: 0.008709
+[2018.01.22-07.34.04:672][539]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.06
+[2018.01.22-07.34.04:673][539]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.01.22-07.34.05:348][553]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [10/9]!
+[2018.01.22-07.34.05:348][553]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [10/9]!
+[2018.01.22-07.34.05:348][553]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [11/9]!
+[2018.01.22-07.34.05:348][553]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [11/9]!
+[2018.01.22-07.34.05:348][553]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [12/9]!
+[2018.01.22-07.34.05:348][553]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [12/9]!
+[2018.01.22-07.34.05:348][553]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [13/9]!
+[2018.01.22-07.34.05:348][553]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [13/9]!
+[2018.01.22-07.34.05:348][553]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [14/9]!
+[2018.01.22-07.34.05:348][553]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [14/9]!
+[2018.01.22-07.34.05:348][553]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [15/9]!
+[2018.01.22-07.34.05:348][553]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [15/9]!
+[2018.01.22-07.34.05:348][553]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [16/9]!
+[2018.01.22-07.34.05:349][553]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [16/9]!
+[2018.01.22-07.34.05:349][553]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [17/9]!
+[2018.01.22-07.34.05:349][553]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [17/9]!
+[2018.01.22-07.34.05:349][553]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [18/9]!
+[2018.01.22-07.34.05:349][553]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [18/9]!
+[2018.01.22-07.34.05:349][553]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [19/9]!
+[2018.01.22-07.34.05:349][553]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [19/9]!
+[2018.01.22-07.34.05:349][553]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [20/9]!
+[2018.01.22-07.34.05:349][553]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [20/9]!
+[2018.01.22-07.34.05:349][553]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [21/9]!
+[2018.01.22-07.34.05:349][553]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [21/9]!
+[2018.01.22-07.34.05:349][553]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [22/9]!
+[2018.01.22-07.34.05:349][553]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [22/9]!
+[2018.01.22-07.34.05:349][553]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [23/9]!
+[2018.01.22-07.34.05:349][553]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [23/9]!
+[2018.01.22-07.34.06:822][603]LogBlueprintUserMessages: [TopDownCharacter_C_0] item placed to slot :  0
+[2018.01.22-07.34.06:822][603]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [10/9]!
+[2018.01.22-07.34.06:822][603]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [10/9]!
+[2018.01.22-07.34.06:822][603]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [11/9]!
+[2018.01.22-07.34.06:822][603]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [11/9]!
+[2018.01.22-07.34.06:823][603]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [12/9]!
+[2018.01.22-07.34.06:823][603]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [12/9]!
+[2018.01.22-07.34.06:823][603]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [13/9]!
+[2018.01.22-07.34.06:823][603]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [13/9]!
+[2018.01.22-07.34.06:823][603]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [14/9]!
+[2018.01.22-07.34.06:823][603]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [14/9]!
+[2018.01.22-07.34.06:823][603]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [15/9]!
+[2018.01.22-07.34.06:823][603]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [15/9]!
+[2018.01.22-07.34.06:823][603]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [16/9]!
+[2018.01.22-07.34.06:823][603]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [16/9]!
+[2018.01.22-07.34.06:823][603]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [17/9]!
+[2018.01.22-07.34.06:823][603]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [17/9]!
+[2018.01.22-07.34.06:823][603]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [18/9]!
+[2018.01.22-07.34.06:823][603]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [18/9]!
+[2018.01.22-07.34.06:823][603]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [19/9]!
+[2018.01.22-07.34.06:823][603]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [19/9]!
+[2018.01.22-07.34.06:823][603]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [20/9]!
+[2018.01.22-07.34.06:823][603]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [20/9]!
+[2018.01.22-07.34.06:823][603]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [21/9]!
+[2018.01.22-07.34.06:823][603]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [21/9]!
+[2018.01.22-07.34.06:824][603]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [22/9]!
+[2018.01.22-07.34.06:824][603]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [22/9]!
+[2018.01.22-07.34.06:824][603]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [23/9]!
+[2018.01.22-07.34.06:824][603]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [23/9]!
+[2018.01.22-07.34.06:824][603]LogBlueprintUserMessages: [Item_Statue_C_7] use
+[2018.01.22-07.34.08:115][648]LogBlueprintUserMessages: [Item_aid_base_C_7] long distance for picked up
+[2018.01.22-07.34.08:716][669]LogBlueprintUserMessages: [TopDownCharacter_C_0] item placed to slot :  1
+[2018.01.22-07.34.08:717][669]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [10/9]!
+[2018.01.22-07.34.08:717][669]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [10/9]!
+[2018.01.22-07.34.08:717][669]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [11/9]!
+[2018.01.22-07.34.08:717][669]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [11/9]!
+[2018.01.22-07.34.08:717][669]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [12/9]!
+[2018.01.22-07.34.08:717][669]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [12/9]!
+[2018.01.22-07.34.08:717][669]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [13/9]!
+[2018.01.22-07.34.08:717][669]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [13/9]!
+[2018.01.22-07.34.08:717][669]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [14/9]!
+[2018.01.22-07.34.08:717][669]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [14/9]!
+[2018.01.22-07.34.08:717][669]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [15/9]!
+[2018.01.22-07.34.08:717][669]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [15/9]!
+[2018.01.22-07.34.08:717][669]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [16/9]!
+[2018.01.22-07.34.08:717][669]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [16/9]!
+[2018.01.22-07.34.08:718][669]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [17/9]!
+[2018.01.22-07.34.08:718][669]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [17/9]!
+[2018.01.22-07.34.08:718][669]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [18/9]!
+[2018.01.22-07.34.08:718][669]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [18/9]!
+[2018.01.22-07.34.08:718][669]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [19/9]!
+[2018.01.22-07.34.08:718][669]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [19/9]!
+[2018.01.22-07.34.08:718][669]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [20/9]!
+[2018.01.22-07.34.08:718][669]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [20/9]!
+[2018.01.22-07.34.08:718][669]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [21/9]!
+[2018.01.22-07.34.08:718][669]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [21/9]!
+[2018.01.22-07.34.08:718][669]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [22/9]!
+[2018.01.22-07.34.08:718][669]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [22/9]!
+[2018.01.22-07.34.08:718][669]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [23/9]!
+[2018.01.22-07.34.08:718][669]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [23/9]!
+[2018.01.22-07.34.08:718][669]LogBlueprintUserMessages: [Item_aid_base_C_7] use
+[2018.01.22-07.34.10:677][738]LogBlueprintUserMessages: [TopDownCharacter_C_0] Item dropped from  0
+[2018.01.22-07.34.10:678][738]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [10/9]!
+[2018.01.22-07.34.10:678][738]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [10/9]!
+[2018.01.22-07.34.10:678][738]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [11/9]!
+[2018.01.22-07.34.10:678][738]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [11/9]!
+[2018.01.22-07.34.10:678][738]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [12/9]!
+[2018.01.22-07.34.10:678][738]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [12/9]!
+[2018.01.22-07.34.10:678][738]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [13/9]!
+[2018.01.22-07.34.10:678][738]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [13/9]!
+[2018.01.22-07.34.10:678][738]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [14/9]!
+[2018.01.22-07.34.10:678][738]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [14/9]!
+[2018.01.22-07.34.10:678][738]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [15/9]!
+[2018.01.22-07.34.10:678][738]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [15/9]!
+[2018.01.22-07.34.10:679][738]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [16/9]!
+[2018.01.22-07.34.10:679][738]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [16/9]!
+[2018.01.22-07.34.10:679][738]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [17/9]!
+[2018.01.22-07.34.10:679][738]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [17/9]!
+[2018.01.22-07.34.10:679][738]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [18/9]!
+[2018.01.22-07.34.10:679][738]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [18/9]!
+[2018.01.22-07.34.10:679][738]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [19/9]!
+[2018.01.22-07.34.10:679][738]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [19/9]!
+[2018.01.22-07.34.10:679][738]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [20/9]!
+[2018.01.22-07.34.10:679][738]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [20/9]!
+[2018.01.22-07.34.10:679][738]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [21/9]!
+[2018.01.22-07.34.10:679][738]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [21/9]!
+[2018.01.22-07.34.10:679][738]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [22/9]!
+[2018.01.22-07.34.10:679][738]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [22/9]!
+[2018.01.22-07.34.10:679][738]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [23/9]!
+[2018.01.22-07.34.10:680][738]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [23/9]!
+[2018.01.22-07.34.16:507][942]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2018.01.22-07.34.16:507][942]LogBlueprintUserMessages: [TopDownCharacter_C_0] Item dropped from  0
+[2018.01.22-07.34.16:508][942]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [10/9]!
+[2018.01.22-07.34.16:508][942]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [10/9]!
+[2018.01.22-07.34.16:508][942]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [11/9]!
+[2018.01.22-07.34.16:508][942]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [11/9]!
+[2018.01.22-07.34.16:508][942]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [12/9]!
+[2018.01.22-07.34.16:508][942]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [12/9]!
+[2018.01.22-07.34.16:508][942]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [13/9]!
+[2018.01.22-07.34.16:508][942]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [13/9]!
+[2018.01.22-07.34.16:508][942]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [14/9]!
+[2018.01.22-07.34.16:508][942]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [14/9]!
+[2018.01.22-07.34.16:508][942]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [15/9]!
+[2018.01.22-07.34.16:508][942]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [15/9]!
+[2018.01.22-07.34.16:508][942]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [16/9]!
+[2018.01.22-07.34.16:508][942]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [16/9]!
+[2018.01.22-07.34.16:509][942]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [17/9]!
+[2018.01.22-07.34.16:509][942]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [17/9]!
+[2018.01.22-07.34.16:509][942]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [18/9]!
+[2018.01.22-07.34.16:509][942]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [18/9]!
+[2018.01.22-07.34.16:509][942]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [19/9]!
+[2018.01.22-07.34.16:509][942]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [19/9]!
+[2018.01.22-07.34.16:509][942]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [20/9]!
+[2018.01.22-07.34.16:509][942]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [20/9]!
+[2018.01.22-07.34.16:509][942]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [21/9]!
+[2018.01.22-07.34.16:509][942]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [21/9]!
+[2018.01.22-07.34.16:509][942]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [22/9]!
+[2018.01.22-07.34.16:509][942]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [22/9]!
+[2018.01.22-07.34.16:509][942]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [23/9]!
+[2018.01.22-07.34.16:509][942]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [23/9]!
+[2018.01.22-07.34.17:159][965]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2018.01.22-07.34.17:159][965]LogBlueprintUserMessages: [TopDownCharacter_C_0] Item dropped from  0
+[2018.01.22-07.34.17:160][965]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [10/9]!
+[2018.01.22-07.34.17:160][965]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [10/9]!
+[2018.01.22-07.34.17:160][965]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [11/9]!
+[2018.01.22-07.34.17:160][965]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [11/9]!
+[2018.01.22-07.34.17:161][965]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [12/9]!
+[2018.01.22-07.34.17:161][965]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [12/9]!
+[2018.01.22-07.34.17:161][965]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [13/9]!
+[2018.01.22-07.34.17:161][965]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [13/9]!
+[2018.01.22-07.34.17:161][965]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [14/9]!
+[2018.01.22-07.34.17:161][965]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [14/9]!
+[2018.01.22-07.34.17:161][965]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [15/9]!
+[2018.01.22-07.34.17:161][965]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [15/9]!
+[2018.01.22-07.34.17:161][965]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [16/9]!
+[2018.01.22-07.34.17:161][965]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [16/9]!
+[2018.01.22-07.34.17:161][965]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [17/9]!
+[2018.01.22-07.34.17:161][965]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [17/9]!
+[2018.01.22-07.34.17:161][965]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [18/9]!
+[2018.01.22-07.34.17:161][965]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [18/9]!
+[2018.01.22-07.34.17:162][965]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [19/9]!
+[2018.01.22-07.34.17:162][965]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [19/9]!
+[2018.01.22-07.34.17:162][965]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [20/9]!
+[2018.01.22-07.34.17:162][965]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [20/9]!
+[2018.01.22-07.34.17:162][965]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [21/9]!
+[2018.01.22-07.34.17:162][965]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [21/9]!
+[2018.01.22-07.34.17:162][965]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [22/9]!
+[2018.01.22-07.34.17:162][965]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [22/9]!
+[2018.01.22-07.34.17:162][965]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [23/9]!
+[2018.01.22-07.34.17:162][965]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [23/9]!
+[2018.01.22-07.34.17:781][987]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2018.01.22-07.34.17:782][987]LogBlueprintUserMessages: [TopDownCharacter_C_0] Item dropped from  0
+[2018.01.22-07.34.17:784][987]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [10/9]!
+[2018.01.22-07.34.17:784][987]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [10/9]!
+[2018.01.22-07.34.17:784][987]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [11/9]!
+[2018.01.22-07.34.17:784][987]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [11/9]!
+[2018.01.22-07.34.17:784][987]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [12/9]!
+[2018.01.22-07.34.17:784][987]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [12/9]!
+[2018.01.22-07.34.17:784][987]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [13/9]!
+[2018.01.22-07.34.17:784][987]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [13/9]!
+[2018.01.22-07.34.17:784][987]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [14/9]!
+[2018.01.22-07.34.17:784][987]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [14/9]!
+[2018.01.22-07.34.17:784][987]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [15/9]!
+[2018.01.22-07.34.17:785][987]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [15/9]!
+[2018.01.22-07.34.17:785][987]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [16/9]!
+[2018.01.22-07.34.17:785][987]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [16/9]!
+[2018.01.22-07.34.17:785][987]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [17/9]!
+[2018.01.22-07.34.17:785][987]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [17/9]!
+[2018.01.22-07.34.17:785][987]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [18/9]!
+[2018.01.22-07.34.17:785][987]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [18/9]!
+[2018.01.22-07.34.17:785][987]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [19/9]!
+[2018.01.22-07.34.17:785][987]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [19/9]!
+[2018.01.22-07.34.17:785][987]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [20/9]!
+[2018.01.22-07.34.17:785][987]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [20/9]!
+[2018.01.22-07.34.17:785][987]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [21/9]!
+[2018.01.22-07.34.17:785][987]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [21/9]!
+[2018.01.22-07.34.17:785][987]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [22/9]!
+[2018.01.22-07.34.17:785][987]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [22/9]!
+[2018.01.22-07.34.17:785][987]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [23/9]!
+[2018.01.22-07.34.17:785][987]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [23/9]!
+[2018.01.22-07.34.18:292][  5]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2018.01.22-07.34.18:292][  5]LogBlueprintUserMessages: [TopDownCharacter_C_0] Item dropped from  0
+[2018.01.22-07.34.18:292][  5]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [10/9]!
+[2018.01.22-07.34.18:293][  5]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [10/9]!
+[2018.01.22-07.34.18:293][  5]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [11/9]!
+[2018.01.22-07.34.18:293][  5]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [11/9]!
+[2018.01.22-07.34.18:293][  5]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [12/9]!
+[2018.01.22-07.34.18:293][  5]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [12/9]!
+[2018.01.22-07.34.18:293][  5]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [13/9]!
+[2018.01.22-07.34.18:293][  5]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [13/9]!
+[2018.01.22-07.34.18:293][  5]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [14/9]!
+[2018.01.22-07.34.18:293][  5]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [14/9]!
+[2018.01.22-07.34.18:293][  5]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [15/9]!
+[2018.01.22-07.34.18:293][  5]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [15/9]!
+[2018.01.22-07.34.18:293][  5]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [16/9]!
+[2018.01.22-07.34.18:293][  5]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [16/9]!
+[2018.01.22-07.34.18:293][  5]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [17/9]!
+[2018.01.22-07.34.18:293][  5]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [17/9]!
+[2018.01.22-07.34.18:293][  5]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [18/9]!
+[2018.01.22-07.34.18:295][  5]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [18/9]!
+[2018.01.22-07.34.18:295][  5]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [19/9]!
+[2018.01.22-07.34.18:295][  5]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [19/9]!
+[2018.01.22-07.34.18:295][  5]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [20/9]!
+[2018.01.22-07.34.18:295][  5]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [20/9]!
+[2018.01.22-07.34.18:295][  5]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [21/9]!
+[2018.01.22-07.34.18:295][  5]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [21/9]!
+[2018.01.22-07.34.18:296][  5]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [22/9]!
+[2018.01.22-07.34.18:296][  5]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [22/9]!
+[2018.01.22-07.34.18:296][  5]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [23/9]!
+[2018.01.22-07.34.18:297][  5]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [23/9]!
+[2018.01.22-07.34.19:453][ 46]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2018.01.22-07.34.19:453][ 46]LogBlueprintUserMessages: [TopDownCharacter_C_0] Item dropped from  0
+[2018.01.22-07.34.19:454][ 46]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [10/9]!
+[2018.01.22-07.34.19:455][ 46]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [10/9]!
+[2018.01.22-07.34.19:455][ 46]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [11/9]!
+[2018.01.22-07.34.19:455][ 46]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [11/9]!
+[2018.01.22-07.34.19:455][ 46]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [12/9]!
+[2018.01.22-07.34.19:455][ 46]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [12/9]!
+[2018.01.22-07.34.19:455][ 46]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [13/9]!
+[2018.01.22-07.34.19:455][ 46]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [13/9]!
+[2018.01.22-07.34.19:455][ 46]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [14/9]!
+[2018.01.22-07.34.19:456][ 46]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [14/9]!
+[2018.01.22-07.34.19:456][ 46]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [15/9]!
+[2018.01.22-07.34.19:456][ 46]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [15/9]!
+[2018.01.22-07.34.19:456][ 46]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [16/9]!
+[2018.01.22-07.34.19:456][ 46]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [16/9]!
+[2018.01.22-07.34.19:456][ 46]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [17/9]!
+[2018.01.22-07.34.19:456][ 46]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [17/9]!
+[2018.01.22-07.34.19:456][ 46]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [18/9]!
+[2018.01.22-07.34.19:456][ 46]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [18/9]!
+[2018.01.22-07.34.19:456][ 46]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [19/9]!
+[2018.01.22-07.34.19:456][ 46]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [19/9]!
+[2018.01.22-07.34.19:456][ 46]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [20/9]!
+[2018.01.22-07.34.19:456][ 46]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [20/9]!
+[2018.01.22-07.34.19:456][ 46]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [21/9]!
+[2018.01.22-07.34.19:456][ 46]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [21/9]!
+[2018.01.22-07.34.19:456][ 46]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [22/9]!
+[2018.01.22-07.34.19:457][ 46]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [22/9]!
+[2018.01.22-07.34.19:457][ 46]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [23/9]!
+[2018.01.22-07.34.19:457][ 46]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [23/9]!
+[2018.01.22-07.34.20:118][ 69]LogBlueprintUserMessages: [Item_Statue_C_18] long distance for picked up
+[2018.01.22-07.34.20:905][ 97]LogBlueprintUserMessages: [TopDownCharacter_C_0] item placed to slot :  0
+[2018.01.22-07.34.20:906][ 97]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [10/9]!
+[2018.01.22-07.34.20:906][ 97]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [10/9]!
+[2018.01.22-07.34.20:906][ 97]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [11/9]!
+[2018.01.22-07.34.20:906][ 97]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [11/9]!
+[2018.01.22-07.34.20:906][ 97]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [12/9]!
+[2018.01.22-07.34.20:906][ 97]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [12/9]!
+[2018.01.22-07.34.20:906][ 97]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [13/9]!
+[2018.01.22-07.34.20:906][ 97]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [13/9]!
+[2018.01.22-07.34.20:906][ 97]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [14/9]!
+[2018.01.22-07.34.20:906][ 97]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [14/9]!
+[2018.01.22-07.34.20:906][ 97]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [15/9]!
+[2018.01.22-07.34.20:906][ 97]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [15/9]!
+[2018.01.22-07.34.20:906][ 97]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [16/9]!
+[2018.01.22-07.34.20:906][ 97]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [16/9]!
+[2018.01.22-07.34.20:907][ 97]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [17/9]!
+[2018.01.22-07.34.20:907][ 97]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [17/9]!
+[2018.01.22-07.34.20:907][ 97]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [18/9]!
+[2018.01.22-07.34.20:907][ 97]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [18/9]!
+[2018.01.22-07.34.20:907][ 97]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [19/9]!
+[2018.01.22-07.34.20:907][ 97]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [19/9]!
+[2018.01.22-07.34.20:907][ 97]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [20/9]!
+[2018.01.22-07.34.20:907][ 97]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [20/9]!
+[2018.01.22-07.34.20:907][ 97]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [21/9]!
+[2018.01.22-07.34.20:907][ 97]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [21/9]!
+[2018.01.22-07.34.20:907][ 97]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [22/9]!
+[2018.01.22-07.34.20:907][ 97]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [22/9]!
+[2018.01.22-07.34.20:907][ 97]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [23/9]!
+[2018.01.22-07.34.20:907][ 97]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [23/9]!
+[2018.01.22-07.34.20:907][ 97]LogBlueprintUserMessages: [Item_Statue_C_18] use
+[2018.01.22-07.34.23:107][175]LogBlueprintUserMessages: [TopDownCharacter_C_0] Item dropped from  0
+[2018.01.22-07.34.23:108][175]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [10/9]!
+[2018.01.22-07.34.23:108][175]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [10/9]!
+[2018.01.22-07.34.23:108][175]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [11/9]!
+[2018.01.22-07.34.23:108][175]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [11/9]!
+[2018.01.22-07.34.23:109][175]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [12/9]!
+[2018.01.22-07.34.23:109][175]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [12/9]!
+[2018.01.22-07.34.23:109][175]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [13/9]!
+[2018.01.22-07.34.23:109][175]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [13/9]!
+[2018.01.22-07.34.23:109][175]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [14/9]!
+[2018.01.22-07.34.23:109][175]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [14/9]!
+[2018.01.22-07.34.23:109][175]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [15/9]!
+[2018.01.22-07.34.23:109][175]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [15/9]!
+[2018.01.22-07.34.23:109][175]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [16/9]!
+[2018.01.22-07.34.23:110][175]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [16/9]!
+[2018.01.22-07.34.23:110][175]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [17/9]!
+[2018.01.22-07.34.23:110][175]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [17/9]!
+[2018.01.22-07.34.23:110][175]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [18/9]!
+[2018.01.22-07.34.23:110][175]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [18/9]!
+[2018.01.22-07.34.23:110][175]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [19/9]!
+[2018.01.22-07.34.23:110][175]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [19/9]!
+[2018.01.22-07.34.23:110][175]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [20/9]!
+[2018.01.22-07.34.23:110][175]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [20/9]!
+[2018.01.22-07.34.23:110][175]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [21/9]!
+[2018.01.22-07.34.23:110][175]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [21/9]!
+[2018.01.22-07.34.23:110][175]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [22/9]!
+[2018.01.22-07.34.23:110][175]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [22/9]!
+[2018.01.22-07.34.23:110][175]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [23/9]!
+[2018.01.22-07.34.23:110][175]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [23/9]!
+[2018.01.22-07.34.24:669][230]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2018.01.22-07.34.24:669][230]LogBlueprintUserMessages: [TopDownCharacter_C_0] Item dropped from  0
+[2018.01.22-07.34.24:669][230]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [10/9]!
+[2018.01.22-07.34.24:669][230]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [10/9]!
+[2018.01.22-07.34.24:669][230]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [11/9]!
+[2018.01.22-07.34.24:669][230]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [11/9]!
+[2018.01.22-07.34.24:669][230]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [12/9]!
+[2018.01.22-07.34.24:670][230]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [12/9]!
+[2018.01.22-07.34.24:670][230]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [13/9]!
+[2018.01.22-07.34.24:670][230]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [13/9]!
+[2018.01.22-07.34.24:670][230]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [14/9]!
+[2018.01.22-07.34.24:670][230]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [14/9]!
+[2018.01.22-07.34.24:670][230]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [15/9]!
+[2018.01.22-07.34.24:670][230]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [15/9]!
+[2018.01.22-07.34.24:670][230]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [16/9]!
+[2018.01.22-07.34.24:670][230]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [16/9]!
+[2018.01.22-07.34.24:670][230]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [17/9]!
+[2018.01.22-07.34.24:670][230]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [17/9]!
+[2018.01.22-07.34.24:670][230]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [18/9]!
+[2018.01.22-07.34.24:670][230]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [18/9]!
+[2018.01.22-07.34.24:670][230]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [19/9]!
+[2018.01.22-07.34.24:670][230]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [19/9]!
+[2018.01.22-07.34.24:670][230]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [20/9]!
+[2018.01.22-07.34.24:671][230]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [20/9]!
+[2018.01.22-07.34.24:671][230]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [21/9]!
+[2018.01.22-07.34.24:671][230]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [21/9]!
+[2018.01.22-07.34.24:671][230]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [22/9]!
+[2018.01.22-07.34.24:671][230]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [22/9]!
+[2018.01.22-07.34.24:671][230]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [23/9]!
+[2018.01.22-07.34.24:671][230]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [23/9]!
+[2018.01.22-07.34.27:006][312]LogBlueprintUserMessages: [TopDownCharacter_C_0] Item dropped from  1
+[2018.01.22-07.34.27:007][312]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [10/9]!
+[2018.01.22-07.34.27:007][312]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [10/9]!
+[2018.01.22-07.34.27:007][312]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [11/9]!
+[2018.01.22-07.34.27:007][312]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [11/9]!
+[2018.01.22-07.34.27:007][312]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [12/9]!
+[2018.01.22-07.34.27:007][312]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [12/9]!
+[2018.01.22-07.34.27:007][312]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [13/9]!
+[2018.01.22-07.34.27:007][312]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [13/9]!
+[2018.01.22-07.34.27:007][312]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [14/9]!
+[2018.01.22-07.34.27:007][312]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [14/9]!
+[2018.01.22-07.34.27:007][312]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [15/9]!
+[2018.01.22-07.34.27:007][312]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [15/9]!
+[2018.01.22-07.34.27:008][312]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [16/9]!
+[2018.01.22-07.34.27:008][312]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [16/9]!
+[2018.01.22-07.34.27:008][312]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [17/9]!
+[2018.01.22-07.34.27:008][312]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [17/9]!
+[2018.01.22-07.34.27:008][312]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [18/9]!
+[2018.01.22-07.34.27:008][312]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [18/9]!
+[2018.01.22-07.34.27:008][312]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [19/9]!
+[2018.01.22-07.34.27:008][312]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [19/9]!
+[2018.01.22-07.34.27:008][312]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [20/9]!
+[2018.01.22-07.34.27:008][312]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [20/9]!
+[2018.01.22-07.34.27:008][312]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [21/9]!
+[2018.01.22-07.34.27:009][312]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [21/9]!
+[2018.01.22-07.34.27:009][312]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [22/9]!
+[2018.01.22-07.34.27:009][312]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [22/9]!
+[2018.01.22-07.34.27:009][312]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [23/9]!
+[2018.01.22-07.34.27:009][312]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [23/9]!
+[2018.01.22-07.34.36:609][639]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.01.22-07.34.36:675][639]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.01.22-07.34.36:728][639]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000059305300
+[2018.01.22-07.34.37:671][676]LogSavePackage: Save=154.091812ms
+[2018.01.22-07.34.37:672][676]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TopDown/Saved/TopDownExampleMap66355F654C9C901C2D6504AD346CA94D.tmp' to '../../../../sergey/UnrealProjects/TopDown/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2018.01.22-07.34.37:674][676]LogSavePackage: Total save time: 176.651802ms
+[2018.01.22-07.34.37:674][676]LogSavePackage:Warning: Finished SavePackage ../../../../sergey/UnrealProjects/TopDown/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2018.01.22-07.35.21:547][ 24]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TopDownCharacter', cached variable property's owner is '/Game/TopDownBP/Blueprints/TopDownCharacter.SKEL_TopDownCharacter_C'
+[2018.01.22-07.35.37:167][505]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TopDownCharacter', cached variable property's owner is '/Game/TopDownBP/Blueprints/TopDownCharacter.SKEL_TopDownCharacter_C'
+[2018.01.22-07.35.40:439][607]BlueprintLog: New page: Compile TopDownCharacter
+[2018.01.22-07.35.40:634][607]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2018.01.22-07.35.40:703][607]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'TopDownCharacter', cached variable property's owner is '/Game/TopDownBP/Blueprints/TopDownCharacter.SKEL_TopDownCharacter_C'
+[2018.01.22-07.35.40:704][607]BlueprintEditorCompileResults: Info [0244.23] Compile of TopDownCharacter successful! [in 264 ms]
+[2018.01.22-07.35.40:728][607]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'TopDownCharacter', cached variable property's owner is '/Game/TopDownBP/Blueprints/TopDownCharacter.SKEL_TopDownCharacter_C'
+[2018.01.22-07.35.41:067][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/TopDownCharacter" FILE="../../../../sergey/UnrealProjects/TopDown/Content/TopDownBP/Blueprints/TopDownCharacter.uasset" SILENT=true
+[2018.01.22-07.35.41:605][615]LogSavePackage: Save=491.405945ms
+[2018.01.22-07.35.41:605][615]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TopDown/Saved/TopDownCharacterAE2B85EA44E0234382DB588348746ED3.tmp' to '../../../../sergey/UnrealProjects/TopDown/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2018.01.22-07.35.41:607][615]LogSavePackage: Total save time: 538.876604ms
+[2018.01.22-07.35.41:607][615]LogSavePackage:Warning: Finished SavePackage ../../../../sergey/UnrealProjects/TopDown/Content/TopDownBP/Blueprints/TopDownCharacter.uasset
+[2018.01.22-07.35.43:503][712]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.01.22-07.35.43:503][712]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.22-07.35.43:503][712]PIE: New page: PIE session: TopDownExampleMap (Jan 22, 2018, 11:35:43 PM)
+[2018.01.22-07.35.43:504][712]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.01.22-07.35.43:542][712]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038109s)
+[2018.01.22-07.35.43:543][712]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.01.22-07.35.43:543][712]LogPlayLevel: PIE: World Init took: (0.001406s)
+[2018.01.22-07.35.43:543][712]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.039838s)
+[2018.01.22-07.35.43:543][712]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2018.01.22-07.35.43:608][712]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.22-07.35.43:658][712]LogInit: FAudioDevice initialized.
+[2018.01.22-07.35.43:695][712]LogWorld: Game class is 'TopDownGameMode_C'
+[2018.01.22-07.35.43:705][712]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2018.01.22-07.35.43:705][712]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.01.22-15.35.43
+[2018.01.22-07.35.43:705][712]LogActor:Warning: GameSession /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.01.22-07.35.43:705][712]LogActor:Warning: GameNetworkManager /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.01.22-07.35.43:706][712]LogWorld: Bringing up level for play took: 0.010166
+[2018.01.22-07.35.43:714][712]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 1.1
+[2018.01.22-07.35.43:714][712]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.01.22-07.35.44:733][739]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [10/9]!
+[2018.01.22-07.35.44:733][739]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [10/9]!
+[2018.01.22-07.35.44:733][739]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [11/9]!
+[2018.01.22-07.35.44:733][739]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [11/9]!
+[2018.01.22-07.35.44:733][739]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [12/9]!
+[2018.01.22-07.35.44:733][739]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [12/9]!
+[2018.01.22-07.35.44:734][739]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [13/9]!
+[2018.01.22-07.35.44:734][739]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [13/9]!
+[2018.01.22-07.35.44:734][739]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [14/9]!
+[2018.01.22-07.35.44:734][739]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [14/9]!
+[2018.01.22-07.35.44:734][739]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [15/9]!
+[2018.01.22-07.35.44:734][739]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [15/9]!
+[2018.01.22-07.35.44:734][739]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [16/9]!
+[2018.01.22-07.35.44:734][739]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [16/9]!
+[2018.01.22-07.35.44:734][739]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [17/9]!
+[2018.01.22-07.35.44:734][739]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [17/9]!
+[2018.01.22-07.35.44:734][739]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [18/9]!
+[2018.01.22-07.35.44:734][739]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [18/9]!
+[2018.01.22-07.35.44:734][739]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [19/9]!
+[2018.01.22-07.35.44:734][739]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [19/9]!
+[2018.01.22-07.35.44:734][739]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [20/9]!
+[2018.01.22-07.35.44:734][739]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [20/9]!
+[2018.01.22-07.35.44:734][739]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [21/9]!
+[2018.01.22-07.35.44:734][739]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [21/9]!
+[2018.01.22-07.35.44:735][739]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [22/9]!
+[2018.01.22-07.35.44:735][739]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [22/9]!
+[2018.01.22-07.35.44:735][739]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [23/9]!
+[2018.01.22-07.35.44:735][739]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [23/9]!
+[2018.01.22-07.35.47:590][839]LogBlueprintUserMessages: [TopDownCharacter_C_0] item placed to slot :  0
+[2018.01.22-07.35.47:591][839]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [10/9]!
+[2018.01.22-07.35.47:591][839]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [10/9]!
+[2018.01.22-07.35.47:591][839]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [11/9]!
+[2018.01.22-07.35.47:591][839]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [11/9]!
+[2018.01.22-07.35.47:591][839]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [12/9]!
+[2018.01.22-07.35.47:591][839]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [12/9]!
+[2018.01.22-07.35.47:591][839]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [13/9]!
+[2018.01.22-07.35.47:591][839]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [13/9]!
+[2018.01.22-07.35.47:591][839]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [14/9]!
+[2018.01.22-07.35.47:591][839]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [14/9]!
+[2018.01.22-07.35.47:591][839]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [15/9]!
+[2018.01.22-07.35.47:591][839]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [15/9]!
+[2018.01.22-07.35.47:591][839]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [16/9]!
+[2018.01.22-07.35.47:591][839]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [16/9]!
+[2018.01.22-07.35.47:591][839]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [17/9]!
+[2018.01.22-07.35.47:591][839]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [17/9]!
+[2018.01.22-07.35.47:591][839]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [18/9]!
+[2018.01.22-07.35.47:591][839]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [18/9]!
+[2018.01.22-07.35.47:591][839]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [19/9]!
+[2018.01.22-07.35.47:591][839]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [19/9]!
+[2018.01.22-07.35.47:592][839]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [20/9]!
+[2018.01.22-07.35.47:592][839]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [20/9]!
+[2018.01.22-07.35.47:592][839]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [21/9]!
+[2018.01.22-07.35.47:592][839]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [21/9]!
+[2018.01.22-07.35.47:592][839]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [22/9]!
+[2018.01.22-07.35.47:592][839]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [22/9]!
+[2018.01.22-07.35.47:592][839]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [23/9]!
+[2018.01.22-07.35.47:592][839]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [23/9]!
+[2018.01.22-07.35.47:592][839]LogBlueprintUserMessages: [Item_Statue_C_7] use
+[2018.01.22-07.35.48:807][882]LogBlueprintUserMessages: [TopDownCharacter_C_0] Item dropped from  0
+[2018.01.22-07.35.48:808][882]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [10/9]!
+[2018.01.22-07.35.48:808][882]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [10/9]!
+[2018.01.22-07.35.48:808][882]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [11/9]!
+[2018.01.22-07.35.48:808][882]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [11/9]!
+[2018.01.22-07.35.48:808][882]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [12/9]!
+[2018.01.22-07.35.48:809][882]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [12/9]!
+[2018.01.22-07.35.48:809][882]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [13/9]!
+[2018.01.22-07.35.48:809][882]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [13/9]!
+[2018.01.22-07.35.48:809][882]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [14/9]!
+[2018.01.22-07.35.48:809][882]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [14/9]!
+[2018.01.22-07.35.48:809][882]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [15/9]!
+[2018.01.22-07.35.48:809][882]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [15/9]!
+[2018.01.22-07.35.48:809][882]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [16/9]!
+[2018.01.22-07.35.48:809][882]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [16/9]!
+[2018.01.22-07.35.48:809][882]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [17/9]!
+[2018.01.22-07.35.48:809][882]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [17/9]!
+[2018.01.22-07.35.48:809][882]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [18/9]!
+[2018.01.22-07.35.48:809][882]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [18/9]!
+[2018.01.22-07.35.48:809][882]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [19/9]!
+[2018.01.22-07.35.48:809][882]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [19/9]!
+[2018.01.22-07.35.48:809][882]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [20/9]!
+[2018.01.22-07.35.48:809][882]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [20/9]!
+[2018.01.22-07.35.48:809][882]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [21/9]!
+[2018.01.22-07.35.48:810][882]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [21/9]!
+[2018.01.22-07.35.48:810][882]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [22/9]!
+[2018.01.22-07.35.48:810][882]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [22/9]!
+[2018.01.22-07.35.48:810][882]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [23/9]!
+[2018.01.22-07.35.48:810][882]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [23/9]!
+[2018.01.22-07.35.50:567][943]LogBlueprintUserMessages: [TopDownCharacter_C_0] item placed to slot :  0
+[2018.01.22-07.35.50:568][943]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [10/9]!
+[2018.01.22-07.35.50:568][943]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [10/9]!
+[2018.01.22-07.35.50:568][943]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [11/9]!
+[2018.01.22-07.35.50:568][943]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [11/9]!
+[2018.01.22-07.35.50:568][943]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [12/9]!
+[2018.01.22-07.35.50:568][943]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [12/9]!
+[2018.01.22-07.35.50:568][943]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [13/9]!
+[2018.01.22-07.35.50:568][943]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [13/9]!
+[2018.01.22-07.35.50:568][943]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [14/9]!
+[2018.01.22-07.35.50:568][943]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [14/9]!
+[2018.01.22-07.35.50:568][943]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [15/9]!
+[2018.01.22-07.35.50:568][943]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [15/9]!
+[2018.01.22-07.35.50:568][943]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [16/9]!
+[2018.01.22-07.35.50:568][943]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [16/9]!
+[2018.01.22-07.35.50:568][943]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [17/9]!
+[2018.01.22-07.35.50:568][943]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [17/9]!
+[2018.01.22-07.35.50:568][943]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [18/9]!
+[2018.01.22-07.35.50:568][943]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [18/9]!
+[2018.01.22-07.35.50:568][943]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [19/9]!
+[2018.01.22-07.35.50:568][943]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [19/9]!
+[2018.01.22-07.35.50:568][943]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [20/9]!
+[2018.01.22-07.35.50:569][943]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [20/9]!
+[2018.01.22-07.35.50:569][943]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [21/9]!
+[2018.01.22-07.35.50:569][943]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [21/9]!
+[2018.01.22-07.35.50:569][943]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [22/9]!
+[2018.01.22-07.35.50:569][943]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [22/9]!
+[2018.01.22-07.35.50:569][943]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [23/9]!
+[2018.01.22-07.35.50:569][943]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [23/9]!
+[2018.01.22-07.35.50:569][943]LogBlueprintUserMessages: [Item_Statue_C_20] use
+[2018.01.22-07.35.51:481][975]LogBlueprintUserMessages: [TopDownCharacter_C_0] Item dropped from  0
+[2018.01.22-07.35.51:482][975]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [10/9]!
+[2018.01.22-07.35.51:482][975]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [10/9]!
+[2018.01.22-07.35.51:482][975]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [11/9]!
+[2018.01.22-07.35.51:482][975]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [11/9]!
+[2018.01.22-07.35.51:482][975]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [12/9]!
+[2018.01.22-07.35.51:482][975]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [12/9]!
+[2018.01.22-07.35.51:482][975]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [13/9]!
+[2018.01.22-07.35.51:482][975]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [13/9]!
+[2018.01.22-07.35.51:482][975]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [14/9]!
+[2018.01.22-07.35.51:482][975]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [14/9]!
+[2018.01.22-07.35.51:482][975]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [15/9]!
+[2018.01.22-07.35.51:482][975]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [15/9]!
+[2018.01.22-07.35.51:482][975]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [16/9]!
+[2018.01.22-07.35.51:482][975]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [16/9]!
+[2018.01.22-07.35.51:482][975]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [17/9]!
+[2018.01.22-07.35.51:482][975]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [17/9]!
+[2018.01.22-07.35.51:483][975]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [18/9]!
+[2018.01.22-07.35.51:483][975]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [18/9]!
+[2018.01.22-07.35.51:483][975]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [19/9]!
+[2018.01.22-07.35.51:483][975]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [19/9]!
+[2018.01.22-07.35.51:483][975]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [20/9]!
+[2018.01.22-07.35.51:483][975]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [20/9]!
+[2018.01.22-07.35.51:483][975]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [21/9]!
+[2018.01.22-07.35.51:483][975]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [21/9]!
+[2018.01.22-07.35.51:483][975]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [22/9]!
+[2018.01.22-07.35.51:483][975]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [22/9]!
+[2018.01.22-07.35.51:483][975]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [23/9]!
+[2018.01.22-07.35.51:483][975]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [23/9]!
+[2018.01.22-07.35.52:349][  5]LogBlueprintUserMessages: [Item_Statue_C_21] long distance for picked up
+[2018.01.22-07.35.53:431][ 43]LogBlueprintUserMessages: [TopDownCharacter_C_0] item placed to slot :  0
+[2018.01.22-07.35.53:431][ 43]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [10/9]!
+[2018.01.22-07.35.53:431][ 43]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [10/9]!
+[2018.01.22-07.35.53:431][ 43]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [11/9]!
+[2018.01.22-07.35.53:432][ 43]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [11/9]!
+[2018.01.22-07.35.53:432][ 43]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [12/9]!
+[2018.01.22-07.35.53:432][ 43]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [12/9]!
+[2018.01.22-07.35.53:432][ 43]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [13/9]!
+[2018.01.22-07.35.53:432][ 43]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [13/9]!
+[2018.01.22-07.35.53:432][ 43]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [14/9]!
+[2018.01.22-07.35.53:432][ 43]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [14/9]!
+[2018.01.22-07.35.53:432][ 43]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [15/9]!
+[2018.01.22-07.35.53:432][ 43]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [15/9]!
+[2018.01.22-07.35.53:432][ 43]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [16/9]!
+[2018.01.22-07.35.53:432][ 43]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [16/9]!
+[2018.01.22-07.35.53:432][ 43]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [17/9]!
+[2018.01.22-07.35.53:432][ 43]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [17/9]!
+[2018.01.22-07.35.53:432][ 43]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [18/9]!
+[2018.01.22-07.35.53:432][ 43]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [18/9]!
+[2018.01.22-07.35.53:432][ 43]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [19/9]!
+[2018.01.22-07.35.53:432][ 43]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [19/9]!
+[2018.01.22-07.35.53:432][ 43]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [20/9]!
+[2018.01.22-07.35.53:432][ 43]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [20/9]!
+[2018.01.22-07.35.53:432][ 43]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [21/9]!
+[2018.01.22-07.35.53:432][ 43]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [21/9]!
+[2018.01.22-07.35.53:433][ 43]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [22/9]!
+[2018.01.22-07.35.53:433][ 43]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [22/9]!
+[2018.01.22-07.35.53:433][ 43]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [23/9]!
+[2018.01.22-07.35.53:433][ 43]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [23/9]!
+[2018.01.22-07.35.53:433][ 43]LogBlueprintUserMessages: [Item_aid_base_C_7] use
+[2018.01.22-07.35.54:473][ 80]LogBlueprintUserMessages: [TopDownCharacter_C_0] Item dropped from  0
+[2018.01.22-07.35.54:475][ 80]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [10/9]!
+[2018.01.22-07.35.54:475][ 80]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [10/9]!
+[2018.01.22-07.35.54:475][ 80]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [11/9]!
+[2018.01.22-07.35.54:475][ 80]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [11/9]!
+[2018.01.22-07.35.54:475][ 80]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [12/9]!
+[2018.01.22-07.35.54:475][ 80]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [12/9]!
+[2018.01.22-07.35.54:475][ 80]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [13/9]!
+[2018.01.22-07.35.54:475][ 80]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [13/9]!
+[2018.01.22-07.35.54:475][ 80]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [14/9]!
+[2018.01.22-07.35.54:475][ 80]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [14/9]!
+[2018.01.22-07.35.54:475][ 80]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [15/9]!
+[2018.01.22-07.35.54:475][ 80]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [15/9]!
+[2018.01.22-07.35.54:475][ 80]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [16/9]!
+[2018.01.22-07.35.54:475][ 80]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [16/9]!
+[2018.01.22-07.35.54:475][ 80]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [17/9]!
+[2018.01.22-07.35.54:475][ 80]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [17/9]!
+[2018.01.22-07.35.54:475][ 80]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [18/9]!
+[2018.01.22-07.35.54:475][ 80]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [18/9]!
+[2018.01.22-07.35.54:476][ 80]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [19/9]!
+[2018.01.22-07.35.54:476][ 80]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [19/9]!
+[2018.01.22-07.35.54:476][ 80]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [20/9]!
+[2018.01.22-07.35.54:476][ 80]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [20/9]!
+[2018.01.22-07.35.54:476][ 80]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [21/9]!
+[2018.01.22-07.35.54:476][ 80]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [21/9]!
+[2018.01.22-07.35.54:476][ 80]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [22/9]!
+[2018.01.22-07.35.54:476][ 80]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [22/9]!
+[2018.01.22-07.35.54:476][ 80]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [23/9]!
+[2018.01.22-07.35.54:476][ 80]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [23/9]!
+[2018.01.22-07.35.57:274][178]LogBlueprintUserMessages: [TopDownCharacter_C_0] item placed to slot :  0
+[2018.01.22-07.35.57:275][178]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [10/9]!
+[2018.01.22-07.35.57:275][178]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [10/9]!
+[2018.01.22-07.35.57:275][178]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [11/9]!
+[2018.01.22-07.35.57:275][178]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [11/9]!
+[2018.01.22-07.35.57:275][178]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [12/9]!
+[2018.01.22-07.35.57:275][178]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [12/9]!
+[2018.01.22-07.35.57:275][178]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [13/9]!
+[2018.01.22-07.35.57:275][178]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [13/9]!
+[2018.01.22-07.35.57:275][178]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [14/9]!
+[2018.01.22-07.35.57:275][178]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [14/9]!
+[2018.01.22-07.35.57:275][178]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [15/9]!
+[2018.01.22-07.35.57:275][178]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [15/9]!
+[2018.01.22-07.35.57:275][178]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [16/9]!
+[2018.01.22-07.35.57:275][178]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [16/9]!
+[2018.01.22-07.35.57:275][178]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [17/9]!
+[2018.01.22-07.35.57:275][178]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [17/9]!
+[2018.01.22-07.35.57:276][178]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [18/9]!
+[2018.01.22-07.35.57:276][178]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [18/9]!
+[2018.01.22-07.35.57:276][178]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [19/9]!
+[2018.01.22-07.35.57:276][178]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [19/9]!
+[2018.01.22-07.35.57:276][178]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [20/9]!
+[2018.01.22-07.35.57:276][178]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [20/9]!
+[2018.01.22-07.35.57:276][178]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [21/9]!
+[2018.01.22-07.35.57:276][178]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [21/9]!
+[2018.01.22-07.35.57:276][178]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [22/9]!
+[2018.01.22-07.35.57:276][178]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [22/9]!
+[2018.01.22-07.35.57:276][178]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [23/9]!
+[2018.01.22-07.35.57:276][178]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [23/9]!
+[2018.01.22-07.35.57:276][178]LogBlueprintUserMessages: [Item_aid_base_C_9] use
+[2018.01.22-07.35.57:617][190]LogBlueprintUserMessages: [Item_Statue_C_9] long distance for picked up
+[2018.01.22-07.35.57:928][201]LogBlueprintUserMessages: [TopDownCharacter_C_0] item stacked to slot :  0
+[2018.01.22-07.35.57:928][201]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [10/9]!
+[2018.01.22-07.35.57:928][201]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [10/9]!
+[2018.01.22-07.35.57:928][201]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [11/9]!
+[2018.01.22-07.35.57:928][201]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [11/9]!
+[2018.01.22-07.35.57:929][201]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [12/9]!
+[2018.01.22-07.35.57:929][201]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [12/9]!
+[2018.01.22-07.35.57:929][201]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [13/9]!
+[2018.01.22-07.35.57:929][201]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [13/9]!
+[2018.01.22-07.35.57:929][201]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [14/9]!
+[2018.01.22-07.35.57:929][201]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [14/9]!
+[2018.01.22-07.35.57:929][201]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [15/9]!
+[2018.01.22-07.35.57:929][201]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [15/9]!
+[2018.01.22-07.35.57:929][201]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [16/9]!
+[2018.01.22-07.35.57:929][201]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [16/9]!
+[2018.01.22-07.35.57:929][201]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [17/9]!
+[2018.01.22-07.35.57:929][201]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [17/9]!
+[2018.01.22-07.35.57:929][201]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [18/9]!
+[2018.01.22-07.35.57:929][201]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [18/9]!
+[2018.01.22-07.35.57:929][201]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [19/9]!
+[2018.01.22-07.35.57:929][201]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [19/9]!
+[2018.01.22-07.35.57:929][201]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [20/9]!
+[2018.01.22-07.35.57:929][201]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [20/9]!
+[2018.01.22-07.35.57:929][201]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [21/9]!
+[2018.01.22-07.35.57:929][201]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [21/9]!
+[2018.01.22-07.35.57:929][201]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [22/9]!
+[2018.01.22-07.35.57:930][201]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [22/9]!
+[2018.01.22-07.35.57:930][201]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [23/9]!
+[2018.01.22-07.35.57:930][201]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [23/9]!
+[2018.01.22-07.35.57:930][201]LogBlueprintUserMessages: [Item_aid_base_C_6] use
+[2018.01.22-07.36.01:405][322]LogBlueprintUserMessages: [TopDownCharacter_C_0] Item dropped from  0
+[2018.01.22-07.36.01:406][322]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [10/9]!
+[2018.01.22-07.36.01:406][322]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [10/9]!
+[2018.01.22-07.36.01:406][322]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [11/9]!
+[2018.01.22-07.36.01:406][322]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [11/9]!
+[2018.01.22-07.36.01:406][322]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [12/9]!
+[2018.01.22-07.36.01:406][322]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [12/9]!
+[2018.01.22-07.36.01:406][322]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [13/9]!
+[2018.01.22-07.36.01:406][322]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [13/9]!
+[2018.01.22-07.36.01:406][322]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [14/9]!
+[2018.01.22-07.36.01:406][322]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [14/9]!
+[2018.01.22-07.36.01:406][322]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [15/9]!
+[2018.01.22-07.36.01:406][322]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [15/9]!
+[2018.01.22-07.36.01:407][322]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [16/9]!
+[2018.01.22-07.36.01:407][322]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [16/9]!
+[2018.01.22-07.36.01:407][322]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [17/9]!
+[2018.01.22-07.36.01:407][322]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [17/9]!
+[2018.01.22-07.36.01:407][322]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [18/9]!
+[2018.01.22-07.36.01:407][322]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [18/9]!
+[2018.01.22-07.36.01:407][322]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [19/9]!
+[2018.01.22-07.36.01:407][322]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [19/9]!
+[2018.01.22-07.36.01:408][322]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [20/9]!
+[2018.01.22-07.36.01:408][322]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [20/9]!
+[2018.01.22-07.36.01:408][322]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [21/9]!
+[2018.01.22-07.36.01:408][322]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [21/9]!
+[2018.01.22-07.36.01:408][322]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [22/9]!
+[2018.01.22-07.36.01:408][322]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [22/9]!
+[2018.01.22-07.36.01:408][322]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [23/9]!
+[2018.01.22-07.36.01:408][322]LogScript:Warning: Attempted to get an item from array CallFunc_Get_Items_Items out of bounds [23/9]!
+[2018.01.22-07.36.04:820][433]LogSavePackage: Save=147.889481ms
+[2018.01.22-07.36.04:820][433]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TopDown/Saved/TopDownExampleMap3A8428394D134F9B0C2785876CE09277.tmp' to '../../../../sergey/UnrealProjects/TopDown/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2018.01.22-07.36.04:822][433]LogSavePackage: Total save time: 158.767935ms
+[2018.01.22-07.36.04:822][433]LogSavePackage:Warning: Finished SavePackage ../../../../sergey/UnrealProjects/TopDown/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2018.01.22-07.36.08:441][473]LogBlueprintUserMes
